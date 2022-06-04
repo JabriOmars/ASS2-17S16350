@@ -13,7 +13,9 @@
 13.	             while (i < 7){
 14.	             	if(max < ArrayStoreException[i])
 15.	                 max = ArrayStoreException[i]; 
-16.	                     i++;    
+16.	                     i++;  
+ System.out.println("The increment ");
+                      
 17.	               }
 18.	         System.out.println("maximum price: %.1f", +max);
 19.		}
